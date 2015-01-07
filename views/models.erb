@@ -1,0 +1,12 @@
+<h3>All Models</h3>
+<ul>
+<% @models.each do |model| %>
+  <li>
+    <%= model.email %>
+  </li>
+  <li>
+    <%= model.name %>
+  </li>
+<% end %>
+</ul>
+<a href="/">Back to Home</a>

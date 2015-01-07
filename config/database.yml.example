@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: 
+  host: localhost
+
+production:
+  adapter: postgresql
+  database: 
+  username: 
+  password: 
+  host: localhost
